@@ -1,4 +1,4 @@
-# Transcripto: Video Summarization with QE
+# Video Summarization with QE 
 
 Transcripto is an advanced application designed to revolutionize how you interact with and extract information from your multimedia files. Whether you have videos, PDFs, documents, or images, Transcripto provides a seamless solution for transcription, summarization, and question-answering.
 
@@ -24,34 +24,26 @@ Before running Transcripto, ensure you have the following installed on your loca
 - Git (optional, for cloning the repository)
 
 ## Installation
-### Step 1: Clone the Repository
-If you have Git installed, you can clone the repository using the following command:
-```bash
-git clone https://github.com/NastyRunner13/transcripto-video-summarizer-qe.git
-cd transcripto-video-summarizer-qe
-```
-Alternatively, download the ZIP file from the repository and extract it.
-
-### Step 2: Set Up a Virtual Environment
+### Step 1: Set Up a Virtual Environment
 Create a virtual environment to isolate the dependencies for this project.
 ```bash
 python3 -m venv transcripto-env
 source transcripto-env/bin/activate  # On Windows, use `transcripto-env\Scripts\activate`
 ```
 
-### Step 3: Install Required Python Packages
+### Step 2: Install Required Python Packages
 Navigate to the project directory and install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Set Up Environment Variables
+### Step 3: Set Up Environment Variables
 Create a .env file in the root directory and add any required environment variables. Example:
 ```bash
 GEMINI_API_KEY = your_gemini_api_key
 ```
 
-### Step 5: Prepare the Storage Directory
+### Step 4: Prepare the Storage Directory
 Ensure that the directory for storing temporary files exists:
 ```bash
 mkdir -p /path/to/your/storage/directory
@@ -117,8 +109,3 @@ transcripto-video-summarizer-qe/
 - Verify that all dependencies are correctly installed by checking requirements.txt.
 - Check if the API key is correctly set in the .env file for accessing external models.
 
-### License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-### Contact
-For support, contact [Prince Gupta] at [princegupta1586@gmail.com] or [Dishita Aggarwal] at [dishitaaggarwal30@gmail.com].
